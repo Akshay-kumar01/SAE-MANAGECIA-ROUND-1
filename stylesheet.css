@@ -1,0 +1,87 @@
+body{
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #333;
+    align-items: center;
+  }
+  .question{
+    font-weight: 600;
+    margin: 20px;
+  }
+  .answers {
+      margin-bottom: 20px;
+  }
+  #submit{
+    font-family: sans-serif;
+    font-size: 20px;
+    background-color: burlywood;
+    color: black;
+    border: 5px;
+    border-radius: 3px;
+    padding: 10px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    width: 130px;
+  }
+  #submit:hover{
+    background-color: #3a8;
+  }
+  .head
+  {
+      margin: 20px;
+      font-size: xx-large;
+      color: darkgrey;
+  }
+  .head
+{
+    color: #444;
+    text-align: center;
+    margin-top: 20px;
+    font-size: xx-large;
+}
+
+.head
+  {
+        background-blend-mode: darken;
+        font-family: cursive;
+        font-size: 30px;
+        color: #fff;
+        text-align: center;
+        animation: INFO 1s ease-in-out infinite alternate;
+  }
+  @-webkit-keyframes INFO {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+  }
+  hr
+  {
+      padding: 2px;
+      fill: darkgrey;
+  }
+  .qui
+  {
+      color: whitesmoke;
+  }
+  #results
+  {
+      color: brown;
+      font-size: xx-large;
+      background-color: chocolate;
+      width: 200px;
+      border-radius: 10px;
+  }
+.count
+{
+    position: absolute;
+    /* top: 0;
+    right: 0; */
+    margin-top: 20px;
+    color: limegreen;
+    font-size: xx-large;
+    /* background-color: grey; */
+}
